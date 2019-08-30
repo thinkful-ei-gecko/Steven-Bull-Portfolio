@@ -3,8 +3,7 @@
 }
 
 body {
-  font-family: "Muli",
-  sans-serif; 
+  font-family: "Muli", sans-serif; 
   font-size: 20px;
   color: #444;
   text-align: center;
@@ -15,7 +14,7 @@ nav,
 footer {
   font-family: 'Ovo', serif;
   padding: 1% 0;
-  background-color: #aaa;
+  background-color: rgb(255, 255, 255);
 }
 
 nav {
@@ -27,25 +26,47 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border-bottom: 2px outset black;
+}
+
+footer {
+  border-top: 2px outset black;
+  margin-top: 5%;
+  padding-top: 3%;
 }
 
 header {
   font-family: 'Ovo', serif;
-  padding: 12% 0 8%;
+  padding: 12% 0 1%;
   line-height: 0.6;
 }
 
 h3 {
   font-family: 'Ovo', serif;
+  color: white;
+  background-color: black;
+  padding: 2%;
+  text-align: center;
+}
+
+.aboutMe {
+  padding: 0 2% 2% 2%;
 }
 
 section {
-  min-height: 200px;
-  padding: 6% 0;
-  background-color: #bbb;
+  text-align: left;
+  background-color: #ebebeb;
   font-size: 16px;
 }
 
+section>div {
+  padding-bottom: 1%;
+}
+
+.skills, .projects {
+  text-align: center;
+}
+
 section:nth-child(even) {
-  background-color: #ddd;
+  background-color: #ebebeb;
 }
