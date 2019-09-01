@@ -18,14 +18,13 @@ footer {
 }
 
 nav {
+  /* text-align: left;
+  padding-left: 2%; */
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   border-bottom: 2px outset black;
 }
 
@@ -39,6 +38,20 @@ header {
   font-family: 'Ovo', serif;
   padding: 12% 0 1%;
   line-height: 0.6;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* a:visited {
+  color: purple;
+} */
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 h3 {
